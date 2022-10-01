@@ -1,0 +1,153 @@
+
+/* body ______________________________________________*/
+body{
+    margin-top: 3vh;
+}
+/* Nav _______________________________________________*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10vh;
+
+}
+.nav-items{
+    display: flex;
+    gap: 8vh;
+}
+.nav-item{
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.active-item{
+    color: #FA5E36;
+    font-weight:bolder;
+}
+/* intro-section _____________________________________*/
+.intro-section{
+    display: flex;
+    margin: 0 10vh;
+    
+}
+/* Left section______________________________________*/
+.left-section h3{
+    display: flex;
+    align-items: baseline;
+    gap: 2vh;
+    width: 50%;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+.left-section h3 img{
+    width: 8vh;
+    margin-top: 3vh;
+}
+.left-section h1{
+    font-family: "Fredoka One", serif;
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+.sub-headlines h5{
+    display: flex;
+    align-items: center; 
+    margin: 7vh;
+    font-size: 3vh;  
+}
+.sub-headlines h5 img{
+    background-color: #FA5E36;
+    border-radius: 50%;
+    margin-right: 2vh;
+}
+.action-btn{
+    font-family: "Poppins", serif;
+    background-color: #FA5E36;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.text{
+    margin-top: 5vh;
+}
+/* right-section______________________________________ */
+.right-section{
+    display: flex;
+    flex-direction: column;
+}
+.headphone-div{
+    display:flex;
+}
+[alt="headphone"]{
+    position: relative;
+    width: 70vh;
+    right: 20vh;
+    z-index: -1;
+    justify-content: center;
+}
+[alt="discount"]{
+    position: relative;
+    width: 20vh;
+    left: 14vh;
+    margin: 0 0;
+}
+.discount-content{
+    position: relative;
+    margin-top: 27vh;
+    margin-right: 10vh;
+    justify-content: center;
+}
+.headphone-div img:first-of-type{
+    position: relative;
+    margin-top:30vh;
+}
+.headphone-div div{
+    position: relative;
+    margin-top: 45vh;
+    right: 1vh;
+}
+.discount-content h4{
+    margin: 0 0;
+    color: aliceblue;
+    font-size: small;
+}
+.discount-content h1{
+    margin: 0 0;
+    color:aliceblue;
+    font-size: 2.5rem;
+}
+.right-section .action-btn{
+    width: 140px;
+    margin: auto;
+    border-style: none;
+}
+.dots{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+}
+.dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#000;
+    margin-bottom: 10px;
+
+}
+.yellow-dot{    
+    background-color: rgb(245, 213, 51);
+}
+.tomato-dot{
+    background-color: #FA5E36;
+}
+.black-dot{
+    background-color: #000;
+}
+@media screen and (max-width: 800px) {
+    .intro-section{
+        display: flex;
+        flex-direction: column;        
+    }
+  }
