@@ -1,0 +1,108 @@
+.{
+    background-color: aliceblue;   
+}
+.navbar-container{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.navbar-container div{
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+ul > li{
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+}
+.navbar-container .button-group{
+    float: right;
+    margin-right: 100px;
+}
+.nav-button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    margin-left: 20px;
+    transform-origin: 50%;    
+}
+section .hero-container{
+    clear: both;
+    margin-left: 170px;
+}
+.hero-container span{
+    float: left;
+    margin-top: 30px;
+}
+.hero-container .square{
+    margin-top: 190px;        
+    width: 300px;
+}
+.hero-container .star{
+    float: right;
+    margin-right: 120px;
+}
+.hero-container .globe{
+    margin-left: 100px;
+}
+.hero-container div{
+    clear: both;
+}
+.hero-container div+img{
+    
+}
+[alt="person-hero-iamge"]{
+    width: 380px;
+    position: absolute;
+    left: 145px;
+    top:160px
+}
+/* ------------------------------------------------- */
+.hero-container-right{
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    width: 550px;
+    text-align: center;
+    align-content: center;
+}
+.hero-heading{
+    font-size: 3.4rem;
+}
+.icons{
+    text-align: center;
+}
+.hero-container-right div button{
+    margin-top: 50px;      
+}
+.button-email{
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-right: 10px;
+    background-color: aliceblue;
+}
+.button-join{
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.hero-container-right div .contact-heading{
+    clear: both;
+    margin-top: 80px;
+    text-transform:capitalize;
+    text-align: center;
+    margin-right: 100px;
+
+}
+div .icons{
+    margin-left: 125px;;
+}
+.icons span [alt$="icon"]{    
+    margin-left:20px;    
+}
+.contact-heading::before{
+    content: url('./assets/start.png');
+    float: left;
+}
