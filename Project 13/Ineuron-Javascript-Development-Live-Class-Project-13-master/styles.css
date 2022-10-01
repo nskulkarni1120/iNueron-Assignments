@@ -1,0 +1,103 @@
+
+.navbar{
+    background-color: #733ae7;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.navbar-tabs{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;       
+}
+.nav-tabs{
+    display: flex;
+    list-style: none;    
+    padding-left: 30px;
+    align-items: center;
+    padding-left: 250px;
+}
+.nav-tab-list{
+    margin-right: 50px;
+    color: #fff;
+}
+.nav-btn-trial{
+    padding: 10px 20px;
+    background-color: #6dceda;
+    border-style: none;
+    color: #fff;
+}
+/* ---------------------content--------------- */
+.content{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 200px;
+    color: aliceblue;
+}
+.content-text{
+    width: 400px;
+}
+.content-text h1{
+    font-size: 3rem;
+}
+.content-img img{
+    width: 500px;
+}
+/* ------------------------------------------------------ */
+.operating-system{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.operating-system-content h1{
+    font-size: x-large;
+    font-weight: bold;
+}
+.operating-system-content{
+    width: 400px;
+}
+.saas-img img{
+    width: 500px;
+}
+/* ----------------------------------------------------- */
+.feature-heading .feature-head{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.features .feature-cards{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.clean-code-img img{
+    width: 30px;
+    height: auto;
+    justify-content: center;
+    background-color: rgb(216, 195, 195);
+    padding: 30px;
+    border-radius: 50%;
+    
+}
+.clean-code{
+    width: 150px;
+    text-align: center;
+    background-color: rgb(252, 248, 248);
+    box-shadow: 2px 5px 2px gray;
+    border-radius: 10px;
+    padding: 2px 2px;
+    
+}
+.clean-code-content h1{
+    text-align: center;
+}
+.clean-code-head{
+    font-size:larger;
+}
+.clean-code-text{
+    font-size: smaller;
+}

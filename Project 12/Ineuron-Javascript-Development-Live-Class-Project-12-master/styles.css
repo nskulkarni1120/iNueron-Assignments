@@ -1,0 +1,384 @@
+
+.navbar{
+    background-color:#758283;
+}
+.navbar-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.navbar-tab{
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+    gap: 2.5rem;
+}
+
+.navbar-button .lets-talk{
+    
+    color: #fff;
+    background-color: transparent;
+    border: 0.5px solid #fff;
+    padding: 10px;
+
+}
+[alt="empowering-image"]{
+    width: 350px;
+    margin-left: 2rem;
+}
+.empowering-business{
+    margin-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.emowering-business-text{
+    width: 400px;
+}
+.empowering-business-header{
+    font-size: 2.5rem;
+}
+.empowering-business-para{
+    line-height: 1.5;
+}
+.nav-form form{
+    display: flex;
+    align-items: center;
+}
+form input{
+    position: relative;
+    padding: 20px 112px;
+    right: 30px;
+}
+span i{
+    position: relative;
+    right: -20px;
+    z-index: 1;    
+}
+form .form-button{
+    position: relative;
+    right: 150px;
+    border: 1px solid #8bb7a2;
+    background-color:#8bb7a2;
+    padding: 5px 40px;
+    color: #fff;
+}
+[placeholder="Enter your email address"]{
+    font-size: 0.7rem;
+    position: relative;
+}
+/* ----------------------------------------------------------------- */
+.connect-target{
+    margin-top: 100px;
+
+}
+.connect-target .connect-target-heading{
+    text-align: center;
+}
+.connect-target-cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+[alt="connect-target-image"]{
+    width:90%;
+    justify-content: center;
+    
+}
+div .connect-image{
+    display: flex;
+    justify-content: center;
+}
+/* ------------------------------------------------------------------ */
+.easy-care .easy-care-heading{
+    text-align: center;
+}
+.easy-care-all-text{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+[alt="easy-care-image"]{
+    width: 350px;
+}
+.easy-care-text{
+    width: 450px;
+    justify-content: center;
+    gap: 150px;
+}
+/* ----------------------------------------------------------------- */
+.digital-marketing{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.digital-marketing-text{
+    width: 450px;
+   
+}
+[alt="digital-image1"]{
+    width: 350px;
+}
+/* ----------------------------------------------------------------- */
+.book-cover{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.book-cover-text{
+    width: 450px;
+}
+[alt="judge-image"]{
+    width: 350px;
+}
+/* ------------------------------------------------------------------ */
+.creative-heading{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.creative-heading div{
+    width: 450px;
+}
+.photo-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+[alt="team-photo-img"]{
+    width:300px;
+    height: 350px;
+}
+.team-photo .team-member-text{
+    width: 250px;
+}
+.team-photo p{
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-photo .team-member-name{
+    margin-left: auto;
+    margin-right: auto;
+}
+div .team-button{
+    text-align: center;
+}
+.creative-team-button{
+    background-color: #8bb7a2;
+    padding: 15px 30px;
+    border: 1px solid #8bb7a2;
+    color: aliceblue;
+}
+/* ---------------------------------------------------------------------- */
+.footer{
+    background-color: #0D0D0D;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px solid #fff;
+}
+.footer .heading{
+    border-bottom:0.5px solid #fff;
+}
+.fa-brands{
+    color: #fff ;
+    background-color: #ffffff1a;    
+}
+.social a i{
+    padding: 20px;
+    border-radius: 50%;
+    background-color:#ffffff1a;
+    text-align: center;
+}
+.footer-list-contents{
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   list-style: none;
+justify-content: center;
+text-align: center;
+}
+.footer-list li:first-child{
+    font-size:x-large;
+}
+.footer-list li{
+    line-height: 2;
+}
+.footer-list li{
+    color: #585858;
+}
+.footer-list li:first-child{
+    color: #fff;
+}
+/* -------------------------------------------- */
+@media only screen and (min-width : 1224px){
+    .empowering-business{
+        gap: 10rem;
+    }
+    .team-photo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .photo-cards{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .team-photo h2{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team-photo p{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1224px){
+    .navbar-top{
+        flex-wrap: wrap;
+    }
+    .navbar-tab{
+        margin: 0;
+    }
+    .empowering-business{
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .empowering-business{
+        gap: 3rem;
+    }
+    .easy-care-all-text{
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+    .easy-care-all-text{
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        align-items: center;
+    }
+    .digital-marketing{
+        flex-direction:column-reverse;
+        text-align: center;
+        gap: 1rem;
+        align-items: center;
+    }
+    .book-cover{
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        align-items: center;
+    }
+    .creative-heading{
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .photo-cards{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .team-photo p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-list-contents{
+        grid-template-columns: 30% 30% 30% 30%;
+        column-gap: 5%;
+        text-align: center;
+        justify-content: center;        
+    }
+    .social a{
+        flex-direction: row;
+    }
+    
+}
+
+@media only screen and (max-width : 768px){
+    .navbar-top{
+        flex-wrap: wrap;
+    }
+    .navbar-tab{
+        margin: 0;
+    }
+    .empowering-business{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .emowering-business-text{
+        margin-left:auto;
+        margin-right: auto;
+        
+    }
+    .emowering-business-text h1{
+        text-align: center;
+    }
+    .connect-target-cards{
+        grid-template-columns: 50% 50%;
+    }
+    .easy-care-all-text{
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        align-items: center;
+    }
+    .digital-marketing{
+        flex-direction:column-reverse;
+        text-align: center;
+        gap: 1rem;
+        align-items: center;
+    }
+    .book-cover{
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        align-items: center;
+    }
+    .creative-heading{
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .photo-cards{
+        flex-direction: column;
+        text-align: center;
+    }
+    .team-photo p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heading{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-list-contents{
+        grid-template-columns: 50% 50%;
+        column-gap: 30%;
+        text-align: center;
+        justify-content: center;        
+    }
+    .social i{
+        flex-direction: row;
+    }
+}

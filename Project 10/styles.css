@@ -1,0 +1,188 @@
+body{
+    background-image:  url("assets/main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(100%);
+    background: linear-gradient(180,#fff,#000);
+    color: #FDFEFF;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.logo-img{
+    margin-top: 40px;
+}
+.logo-img img{
+    width: 10vw;
+}
+.header-class{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 2px solid rgb(251, 249, 249);
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+[alt="phone-img"]{
+    height: 40px;
+    margin-right: 5px;
+}
+.nav-items li{
+    list-style: none;
+    font-size: large;
+}
+/* middle-section___________________ */
+.middle-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 30%;
+    
+}
+.interior-design-text{
+    font-size: 4rem;
+    width: 60%px;    
+}
+.tag-one{
+    background:  rgba(191, 187, 187, 0.4); 
+    width: 250px;
+    height: fit-content;  
+}
+
+[alt="puzzele-img"]{
+    background-color: #fff;
+    border-radius: 30px;
+    height: 35px;
+    padding:0 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.tag-one p{
+    margin-left: 20px;
+}
+.line1{
+    background-color: #fff;
+    position:absolute;
+    top: 48.7%;
+    right: 10%;
+    width: 2px;
+    height: 50px;
+}
+.circle1{
+    background-color: #fff;
+    position:absolute;
+    top: 55.7%;
+    right: 9.25%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+/* bottom-section________________________ */
+.bottom-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 30%;
+}
+.learn-more button{
+    color: #fff;
+    background:transparent;
+    border:2px solid #FDFEFF;
+    padding: 15px 50px;
+    font-size: 1.25rem;
+    font-weight:700;
+    position: relative;
+    bottom: 60px;
+    right: -50%;
+    border-radius: 30px;
+}
+.innovation-idea{
+    background:  rgba(191, 187, 187, 0.4); 
+    width: 200px;
+    height: fit-content;  
+}
+[alt="innovation-img"]{
+    background-color: #fff;
+    border-radius: 30px;
+    height: 35px;
+    padding:0 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.innovation-idea p{
+    margin-left: 20px;
+}
+.line2{
+    background-color: #fff;
+    position:absolute;
+    top: 83.7%;
+    right: 17.4%;
+    width: 50px;
+    height: 2px;
+}
+.circle2{
+    background-color: #fff;
+    position:absolute;
+    top: 81.7%;
+    right: 16%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+/* -------------------------------------------------------------------------------- */
+@media only screen and (max-width: 768px){
+    body{
+        background-color: rgb(233, 195, 92);
+    }
+    .header-class{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .logo-img img{
+        width: 15vw;
+        margin: 0;
+    }
+    .nav-items{       
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items:center;
+        gap: 20px;
+   
+    }
+    .contact-info{
+        flex-wrap: wrap;
+        margin-top: 0;
+        justify-content: center;
+        align-items: flex-start;        
+    }
+    .middle-section{
+        flex-direction: column;
+    }
+    .bottom-section{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1224px){
+    body{
+        background-color: rgb(200, 73, 231);
+    }
+    .logo img{
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (min-width : 1224px){
+    body{
+        background-color: rgb(82, 242, 226);
+    }
+}

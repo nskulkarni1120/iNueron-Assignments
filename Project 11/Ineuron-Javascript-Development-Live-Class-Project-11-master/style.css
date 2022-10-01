@@ -1,0 +1,423 @@
+
+.container{
+   margin: 20px 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: 600px;
+}
+.register-now{
+    border: 2px solid #1B98F5;
+    color: #1B98F5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: transparent;
+}
+/* 1 website-start __________________________________________________________*/
+.website-start{
+    display: flex;
+    margin-top: 50px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+[alt="test-server-image"]{
+    width: 450px;
+    height: auto    
+}
+.start-text{
+    font-size: 3rem;
+    width: 450px;
+}
+.start-test-about{
+    width: 500px;
+}
+.start-text-button{
+    border: 2px solid #1B98F5;
+    color: #fff; ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #1B98F5;
+}
+/* quality-cost________________________________________________________________ */
+.quality-cost{
+    display: flex;
+    margin-top: 150px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+[alt="quality-cost-image"]{
+    width: 450px;
+    height: auto
+}
+.heading-text{
+    font-size: 3rem;
+    width: 450px;
+}
+.quality-cost-text{
+    width: 500px;
+}
+.quality-cost-button{
+    border: 2px solid #1B98F5;
+    color: #fff; ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #1B98F5;
+}
+/* technical-suport_______________________________________________________3 */
+.technical-suport{
+    display: flex;
+    margin-top: 150px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.technical-support-heading{
+    font-size: 3rem;
+    width: 450px;
+}
+.technical-support-text{
+    width: 500px;
+}
+.technical-support-button{
+    border: 2px solid #1B98F5;
+    color: #fff; ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #1B98F5;
+}
+/* thor-hosting__________________________________________________________4 */
+.thor-hosting-heading{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.thor-hosting-heading h1{
+    font-size: 3rem;
+    width: 450px;
+}
+.thor-hosting-heading p{
+    width: 400px;
+}
+.thor-hosting{
+    margin-left: 10%;    
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    text-align:left;
+    column-gap: 5%;
+    margin-top: 50px;
+    align-items: flex-start;
+}
+.thor-hosting-label1 .thor-text{
+    width: 100%;
+    font-size: smaller;   
+}
+/* pricing________________________________________________________________5 */
+.pricing{
+    text-align: center;
+    background-color: #1B98F5;
+    padding-bottom: 9rem;
+}
+.pricing-heading-text{
+    color: #fff;
+}
+.pricing-heading-text{
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+    font-size: 2.5rem;
+}
+.pack-cards{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 23% 23% 23%;
+    gap: 5%;
+    border-radius: 5px;
+}
+.pack-cards div{
+    background-color: #fff;
+    border-radius: 5px; 
+    margin-bottom: 0.1rem;
+    width: 300px;
+}
+.pack-card-header{
+    font-size: 1.5rem;
+}
+.pack-features-class{
+    margin-top: 1rem;
+}
+.pack-features-class li{
+    margin-top: 15px;
+    font-weight:600;
+}
+.pack-price{
+    padding-top: 10px;
+}
+.pack-price h1{
+    margin-bottom: 10px;
+}
+.pack-price p{
+    margin-top: 0px;
+}
+div .pack-price{
+    margin-bottom: 1rem;
+}
+.month{
+    color: #758283;
+}
+.cancel{
+    color: #758283;
+}
+.pack-button{
+    border: 1px solid #1B98F5;
+    color: #1B98F5; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: transparent;
+    font-weight: bold;
+}
+.pack-cards-active .pack-cards2 .pack-cards-header-text h1{
+    margin-top: 0;
+}
+.pack-cards-active .pack-cards2 .pack-cards-header-text{
+    background-color: #242B2E;
+    color: aliceblue;
+    padding: 20px 0;
+    
+}
+
+.pack-cards-active .pack-cards2 div{
+    margin-bottom: 20px;
+}
+/* customer-feedback________________________________________ */
+.customer-feedback-heading h1{
+    text-align: center;
+}
+.customer-feedback-heading p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feedback-text{
+    width: 25rem;
+}
+.customer-feedback-cards{
+    display: grid;
+    grid-template-columns:35% 35%;
+    justify-content: center;
+    column-gap:1%;
+    row-gap: 3%;
+}
+.feedback-cards{
+    background-color: rgb(241, 241, 241);
+    padding: 20px 15px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(166, 166, 166);
+    border-radius: 50%;
+}
+.feedback-cards p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.feedback-cards-div{
+    display: flex;
+   align-items: center;
+}
+.customer-name-address p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.customer-name-address P:nth-of-type(1){
+    font-weight: bold;
+}
+/* oce-hosting_______________________________________________ */
+.oce-hosting{
+    margin-top: 100px;
+    background-color: #1B98F5;
+    padding: 10px;    
+}
+.oce-hosting{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center
+}
+.oce-heading-text{
+    width: 350px;
+}
+.oce-buttion{
+    background-color: #1b98f9;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.oce-hosting-text{
+    font-size: smaller;
+    color: rgb(228, 228, 228);
+    margin-bottom: 40px;
+}
+/* footer______________________________________________________ */
+.footer{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns:40% 15% 15% 15% 15%;
+    align-items: flex-start;
+    
+}
+div .footer-social-media{
+    justify-items: center;
+}
+.footer-social-media p{
+    margin-top: 0;    
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+[alt="footer-logo"]{
+    width: 80px
+}
+.footer-logo-text{
+    width: 400px;
+}
+div li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+div li:nth-of-type(1){
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+[alt="footer-sociel"]{
+    width: 120px;
+    margin-left: 47px;
+}
+div li:nth-of-type(n+2){
+    color: #758283;
+    font-size: smaller;
+}
+.footer-text{
+    color: #758283;
+    font-size: smaller;
+}
+/* ---------------------------------------------- */
+@media only screen and (max-width : 768px){
+   
+    .navbar .navbar-image{
+        justify-content: center;
+    }
+    .navbar{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .nav-list{
+        margin: 0;
+    }
+    .website-start{
+        flex-wrap: wrap;
+    }
+    .quality-cost{
+        flex-wrap: wrap;
+    }
+    .technical-suport{
+        flex-wrap: wrap;
+    }
+    .thor-heading-class{
+        flex-wrap: wrap;
+    }
+    .thor-hosting{
+        grid-template-columns: auto auto;
+    }
+    .pack-cards{
+        margin-top: 10px;
+        grid-template-columns: auto;
+    }
+    .customer-feedback-heading p{
+        text-align: center;
+        margin: 0;
+    }
+    .customer-feedback-cards{
+        grid-template-columns: 50% 50%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;               
+    }
+    .footer-social-media p{
+        text-align: left;
+    }
+    .footer-social-media img{
+        margin:0
+    }
+    .website-start-text{
+        text-align: center;
+    }
+    .quality-cost-text{
+        text-align: center;
+    }
+    .technical-support-text{
+        text-align: center;
+    }
+   
+   
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1224px){
+    
+   
+    .navbar{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .nav-list{
+        margin: 0;
+    }
+    .website-start{
+        flex-wrap: wrap;
+    }
+    .quality-cost{
+        flex-wrap: wrap;
+    }
+    .technical-suport{
+        flex-wrap: wrap;
+    }
+    .thor-heading-class{
+        flex-wrap: wrap;
+    }
+    .pack-cards{
+        margin-top: 10px;
+        grid-template-columns: auto auto;        
+    }
+    .customer-feedback-cards{
+        grid-template-columns: 45% 45%;
+    }
+    .footer-social-media img{
+        margin: 0;        
+    }
+    .website-start-text{
+        text-align: center;
+    }
+    .quality-cost-text{
+        text-align: center;
+    }
+    .technical-support-text{
+        text-align: center;
+    }
+    
+
+}
+
+@media only screen and (min-width : 1224px){
+    
+}
