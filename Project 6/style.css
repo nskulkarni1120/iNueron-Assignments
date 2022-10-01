@@ -1,0 +1,105 @@
+*{
+    background: rgb(250, 247, 247);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#navFirst{
+    display: flex;
+    margin-left: 60px;     
+}
+#navMid{
+    display: flex;
+    gap: 100px;
+}
+#navMid div:nth-of-type(1) h4{
+    text-decoration-line:underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+#navEnd{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+/* --------------------------- */
+#midWhole{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#midWholePart11{
+    display: flex;
+    margin-top: 150px;
+}
+#monstera{
+    font-size: 6rem;
+    font-weight:900;
+    margin: 0;
+}
+#midWholePart11 div ul li{   
+    margin: 0 0;    
+    list-style:disc;
+}
+#midWholePart12{
+    display: flex;
+    flex-wrap: wrap;
+}
+#midWholePart121{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+#midWholePart121 div h1{
+    background: rgb(23, 135, 13);
+    width:max-content;
+    color: #F7FCFD;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-weight: 100;
+    margin-left: 50px;
+    list-style-image: url('sqpurple.gif')
+    
+}
+#midWholePart13{
+    display: flex;
+    margin: 0;
+    align-items: baseline;
+}
+.midWholePart13Parts{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.midWholePart13Parts div h4{
+    margin: 0 5px;
+    align-items: center;
+    font-size: larger;
+}
+.midWholePart13Parts div p{
+    margin: 0 5px;
+    font-size: small;
+    width: 200px;
+}
+#imgMain{
+    margin-right: 0;
+}
+#imgMain{
+    width: 480px;
+}
+#feeding{
+    background: #F7FCFD;
+}
+#midWholePart122 img{
+    position: relative;
+    left: -30px;
+    top: 42px;
+    width: 12px;
+    color: #F7FCFD;
+    background-color:rgb(23, 135, 13);
+}
