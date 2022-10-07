@@ -256,7 +256,7 @@ color: #fff;
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 768px){
   body{
-    background-color: #dc08c3;
+    /* background-color: #dc08c3; */
   }
   .navbar{
     flex-direction: column;
@@ -290,7 +290,7 @@ color: #fff;
 /* Smartphones (portrait) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1224px) {
   body{
-    background-color: #088edc;
+    /* background-color: #088edc; */
   }
   .header-image{
     width: 50%;
@@ -315,7 +315,7 @@ color: #fff;
   /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px){
   body{
-    background-color: #08dc52;
+    /* background-color: #08dc52; */
   }
   .cards div{
     width: 40vw;

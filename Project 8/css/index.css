@@ -109,7 +109,7 @@ nav {
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
     body {
-        background-color: #824d22;
+        /* background-color: #824d22; */
     }
     [alt="logo"]{
         width: 15vw;
@@ -121,8 +121,8 @@ nav {
 /* Smartphones (portrait) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1224px) {
     body {
-        background-color: #228247;
-        background-position: ;
+        /* background-color: #228247; */
+        
         background-size: 80% 70%;
     }
     [alt="logo"]{
@@ -154,7 +154,7 @@ nav {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 768px)  {
     body {
-        background-color: #82224c;
+        /* background-color: #82224c; */
     }
     nav{
         align-items: center;
